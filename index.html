@@ -40,11 +40,11 @@
         </div>
 
         <!--PORTFOLIO-->
-        <div class="row bg-success justify-content-center">
+        <div class="row justify-content-center">
 
             <!--SMALLER CONTAINER-->
 
-            <div class="col-10 d-flex flex-wrap">
+            <div class="col-10 d-flex flex-wrap m-4">
 
                 <!--HEADER-->
                 <div class="col-12 text-center">
@@ -141,45 +141,60 @@
             <div class="col-10 d-flex flex-wrap">
 
                 <!--HEADER-->
-                <div class="col-12">
+                <div class="col-12 m-4">
                     <h3 class="text-center">WANT AN OFFER?</h3>
                 </div>
 
                 <!--FORM SECTION-->
-                <div class="col-12">
-                    <div>
-                        <label for="f-name">First name</label>
-                        <input id="f-name" class="col-12 col-md-6" type="text">
-                    </div>
-                    <div>
-                        <label for="l-name">Last name</label>
-                        <input id="l-name" class="col-12 col-md-6" type="text">
-                    </div>
-                    <div>
-                        <label for="mail">E-mail address</label>
-                        <input id="mail" class="col-12 col-md-6" type="text">
-                    </div>
 
-                    <div>
-                        <label for="hours">Hours requested</label>
-                        <input id="hours" class="col-12 col-md-6" type="text">
-                    </div>
+                <!--INPUT NAME-->
+                <div class="col-12 col-md-6 mb-3 px-3">
+                    <label for="f-name" class="form-label">First name</label>
+                    <input id="f-name" class=" form-control" placeholder="Enter your first name..." type="text">
+                </div>
 
-                    <div>
-                        <label for="work">Type of work</label>
-                        <input id="work" class="col-12 col-md-6" type="text">
-                    </div>
+                <!--INPUT LAST NAME-->
+                <div class="col-12 col-md-6 mb-3 px-3">
+                    <label for="l-name" class="form-label">Last name</label>
+                    <input id="l-name" class=" form-control" placeholder="Enter Your last name..." type="text">
+                </div>
 
-                    <div>
-                        <label for="discount">Discount code</label>
-                        <input id="discount" class="col-12 col-md-6"
-                            type="text">
-                    </div>
+                <!--INPUT E-MAIL-->
+                <div class="col-12 col-md-6 mb-3 px-3">
+                    <label for="mail" class="form-label">E-mail address</label>
+                    <input id="mail" class=" form-control" placeholder="name@example.com" type="email">
+                </div>
 
+                <!--INPUT HOURS REQUESTED-->
+                <div class="col-12 col-md-6 mb-3 px-3">
+                    <label for="hours" class="form-label">Hours requested</label>
+                    <input id="hours" class=" form-control" placeholder="Hours requested..." type="text">
+                </div>
+
+                <!--INPUT TYPE OF WORK-->
+                <div class="col-12 col-md-6 mb-3 px-3">
+                    <label for="work" class="form-label">Type of work</label>
+                    <select class="form-select" id="work">
+                        <option selected>Select the type of work...</option>
+                        <option value="a type of work">a type of work</option>
+                        <option value="another type of work">another type of work</option>
+                        <option value="another type of work">another type of work</option>
+                        <option value="another type of work">another type of work</option>
+                    </select>
+                </div>
+
+                <!--INPUT DISCOUNT CODE-->
+                <div class="col-12 col-md-6 mb-3 px-3">
+                    <label for="discount" class="form-label">Discount code</label>
+                    <input id="discount" class=" form-control" type="text">
                 </div>
 
                 <!--BIGGER FORM SECTION-->
-                <div class="col-12"></div>
+                <div class="col-12 mb-3 px-3">
+                    <label for="msg" class="form-label">Message</label>
+                    <textarea class="form-control" placeholder="Specify your work commission..." id="msg"
+                        rows="3"></textarea>
+                </div>
 
             </div>
         </div>
